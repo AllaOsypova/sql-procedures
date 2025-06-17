@@ -56,7 +56,7 @@ BEGIN
     LEFT JOIN HH.CalcIMS_NIS c 
         ON a.OrdNo = c.OrdNo
     WHERE c.OrdNo IS NULL 
-      AND a.DateID BETWEEN 20160101 AND @DateID;
+      AND a.DateID BETWEEN 20240101 AND @DateID;
 
     -- =============================================
     -- Step 3: Build temporary price table for IMS
